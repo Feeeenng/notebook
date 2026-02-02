@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9211a923e01692fd",
+        "id": "6de2d426fe7d95b4",
         "type": "tabs",
         "children": [
           {
-            "id": "e4aa7ab124e5bcc8",
+            "id": "162ab979ae202ca5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -189,10 +185,11 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "e4aa7ab124e5bcc8",
+  "active": "162ab979ae202ca5",
   "lastOpenFiles": [
     "编程语言/Python/pyenv.md",
     "未命名 1.canvas",
