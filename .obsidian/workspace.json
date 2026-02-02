@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Python/Pyenv.md",
+                "file": "编程语言/Python/pyenv.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pyenv"
+              "title": "pyenv"
             }
           }
         ]
@@ -202,10 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c5474b21b99fc7",
+  "active": "856bf86e514897f0",
   "lastOpenFiles": [
     "kubernetes/开发/telepresence  代理本地流量.md",
-    "编程语言/Python/Pyenv.md",
+    "编程语言/Python/pyenv.md",
     "编程语言/Python",
     "编程语言",
     "wsl/READMD.md",
