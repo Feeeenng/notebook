@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "7e485fe42ac8dce2",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "6de2d426fe7d95b4",
+        "id": "018ea5ee58ddc558",
         "type": "tabs",
         "children": [
           {
-            "id": "162ab979ae202ca5",
+            "id": "5941f1ca1bb0a74f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 269.5
   },
   "right": {
     "id": "72e2142cbc4deedc",
@@ -150,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-01-06.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-01-06 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -185,35 +184,34 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "162ab979ae202ca5",
+  "active": "856bf86e514897f0",
   "lastOpenFiles": [
+    "README.md",
+    "ide/codex/README.md",
+    "wsl/README.md",
+    "kubernetes/开发/telepresence  代理本地流量.md",
+    "未命名.md",
+    "未命名.base",
+    "ide/codex/test.md",
     "编程语言/Python/pyenv.md",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名.canvas",
-    "未命名.base",
-    "kubernetes/开发/telepresence  代理本地流量.md",
     "编程语言/Python",
     "编程语言",
-    "wsl/READMD.md",
     "kubernetes/开发",
     "kubernetes",
     "wsl/assets/READMD/file-20260115095919262.png",
     "wsl/assets/READMD",
     "wsl/assets",
     "wsl/assets/READMD/file-20260115095725692.png",
-    "ide/codex/test.md",
     "ide/codex/assets/test/file-20260115095608101.png",
     "ide/codex/assets/test",
     "ide/codex/assets",
-    "ide/codex/README.md",
     "Pasted image 20260107092636.png",
-    "README.md",
-    "未命名.md",
     "2026-01-06.md",
     "pac/OmegaProfile_proxy 1.pac"
   ]

@@ -1,4 +1,6 @@
 [
   "obsidian-custom-attachment-location",
-  "obsidian-git"
+  "obsidian-git",
+  "editing-toolbar",
+  "open-in-new-tab"
 ]
