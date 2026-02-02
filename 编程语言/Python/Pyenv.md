@@ -1,3 +1,24 @@
+---
+tags:
+  - python
+  - pyenv
+---
+一个 Python 多版本环境管理工具  
+文档地址：https://github.com/pyenv/pyenv
+# 安装
+
+## 步骤一：安装软件
+```
+curl -fsSL https://pyenv.run | bash
+```
+
+步骤二：配置环境变量
+> 默认采用bash方式 
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
+```
 
 
 # 优化使用
