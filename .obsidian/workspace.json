@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/开发/telepresence  代理本地流量.md",
+                "file": "编程语言/Python/Pyenv.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "telepresence  代理本地流量"
+              "title": "Pyenv"
             }
           }
         ]
@@ -194,8 +204,11 @@
   },
   "active": "07c5474b21b99fc7",
   "lastOpenFiles": [
-    "wsl/READMD.md",
     "kubernetes/开发/telepresence  代理本地流量.md",
+    "编程语言/Python/Pyenv.md",
+    "编程语言/Python",
+    "编程语言",
+    "wsl/READMD.md",
     "kubernetes/开发",
     "kubernetes",
     "wsl/assets/READMD/file-20260115095919262.png",
@@ -213,8 +226,6 @@
     "未命名.md",
     "未命名.base",
     "2026-01-06.md",
-    "pac/OmegaProfile_proxy 1.pac",
-    "pac/OmegaProfile_proxy.pac",
-    "pac"
+    "pac/OmegaProfile_proxy 1.pac"
   ]
 }
