@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "018ea5ee58ddc558",
+        "id": "afa673687cd7a428",
         "type": "tabs",
         "children": [
           {
-            "id": "5941f1ca1bb0a74f",
+            "id": "e8a8595133ca85a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ide/code/claude code/claude code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "claude code"
             }
           }
         ]
@@ -150,12 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ide/codex/README.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -187,13 +202,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "856bf86e514897f0",
+  "active": "e8a8595133ca85a8",
   "lastOpenFiles": [
-    "README.md",
-    "ide/codex/README.md",
     "wsl/README.md",
-    "kubernetes/开发/telepresence  代理本地流量.md",
     "未命名.md",
+    "ide/code/claude code/claude code.md",
+    "ide/code/open-code/open-code.md",
+    "ide/code/claude code",
+    "ide/code/open-code",
+    "ide/code",
+    "ide/code/codex/README.md",
+    "README.md",
+    "kubernetes/开发/telepresence  代理本地流量.md",
     "未命名.base",
     "ide/codex/test.md",
     "编程语言/Python/pyenv.md",
@@ -209,10 +229,7 @@
     "wsl/assets",
     "wsl/assets/READMD/file-20260115095725692.png",
     "ide/codex/assets/test/file-20260115095608101.png",
-    "ide/codex/assets/test",
-    "ide/codex/assets",
     "Pasted image 20260107092636.png",
-    "2026-01-06.md",
-    "pac/OmegaProfile_proxy 1.pac"
+    "2026-01-06.md"
   ]
 }
