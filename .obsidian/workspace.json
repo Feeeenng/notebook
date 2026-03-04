@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "ide/code/claude code/claude code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "claude code"
             }
           },
           {
@@ -67,8 +67,7 @@
               "title": "claude code"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,10 +238,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a698f88fba15929",
+  "active": "e8a8595133ca85a8",
   "lastOpenFiles": [
-    "ide/code/claude code/claude code.md",
     "未命名.md",
+    "ide/code/claude code/claude code.md",
     "wsl/README.md",
     "ide/code/open-code/open-code.md",
     "ide/code/claude code",
