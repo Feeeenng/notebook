@@ -43,5 +43,4 @@
 
 
 # skill 推荐
-
-
+- [openspec](skill/openspec.md)
