@@ -47,4 +47,6 @@
 
 # skill 推荐
 - [openspec](skill/openspec.md)
-- [claude-mem](skill/claude-mem.md)
+
+# MCP 推荐
+- [claude-mem](MCP/claude-mem.md)

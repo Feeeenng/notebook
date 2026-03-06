@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ide/code/claude code/skill/claude-mem.md",
+                "file": "ide/code/claude code/MCP/claude-mem.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -254,8 +254,9 @@
   "active": "cee818efb44bfc04",
   "lastOpenFiles": [
     "ide/code/claude code/claude code.md",
+    "ide/code/claude code/MCP/claude-mem.md",
+    "ide/code/claude code/MCP",
     "ide/code/claude code/skill/openspec.md",
-    "ide/code/claude code/skill/claude-mem.md",
     "未命名.base",
     "ide/code/claude code/skill",
     "未命名.md",
@@ -277,7 +278,6 @@
     "kubernetes/开发",
     "kubernetes",
     "wsl/assets/READMD/file-20260115095919262.png",
-    "wsl/assets/READMD",
     "wsl/assets/READMD/file-20260115095725692.png",
     "ide/codex/assets/test/file-20260115095608101.png",
     "Pasted image 20260107092636.png",
