@@ -1,5 +1,6 @@
 项目地址：https://github.com/Fission-AI/OpenSpec/blob/main/docs/workflows.md
-SKILL说明：规范驱动开发项目
+
+项目说明：规范驱动开发项目
 
 
 ### 使用方式

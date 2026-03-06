@@ -54,6 +54,30 @@
               "icon": "lucide-file",
               "title": "claude-mem"
             }
+          },
+          {
+            "id": "c67cf0a949ff2b63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ide/code/claude code/claude code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "claude code"
+            }
           }
         ],
         "currentTab": 1
@@ -229,9 +253,9 @@
   },
   "active": "cee818efb44bfc04",
   "lastOpenFiles": [
+    "ide/code/claude code/claude code.md",
     "ide/code/claude code/skill/openspec.md",
     "ide/code/claude code/skill/claude-mem.md",
-    "ide/code/claude code/claude code.md",
     "未命名.base",
     "ide/code/claude code/skill",
     "未命名.md",
