@@ -40,7 +40,11 @@
 
 # 基本命令使用
 
+## /compact
+如果上下文超过限制，使用这个。可以保存上下文来。开启新的会话以后，
+
 
 
 # skill 推荐
 - [openspec](skill/openspec.md)
+- [claude-mem](skill/claude-mem.md)
