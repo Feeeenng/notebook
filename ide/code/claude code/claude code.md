@@ -50,3 +50,24 @@
 
 # MCP 推荐
 - [claude-mem](MCP/claude-mem.md)
+
+
+# everything-claude-code
+
+## 设置规则
+
+- dev 用于编码
+- review 用于代码质量/安全
+- research.md 做之前的探索模式
+```
+```bash
+# Daily development
+alias claude-dev='claude --system-prompt "$(cat ~/.claude/contexts/dev.md)"'
+
+# PR review mode
+alias claude-review='claude --system-prompt "$(cat ~/.claude/contexts/review.md)"'
+
+# Research/exploration mode
+alias claude-research='claude --system-prompt "$(cat ~/.claude/contexts/research.md)"'
+```
+```
