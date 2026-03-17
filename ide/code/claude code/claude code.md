@@ -54,11 +54,19 @@
 
 # everything-claude-code
 
+## 设置claude_path
+目前1.8.0版本存在问题。需要手动设置`CLAUDE_PLUGIN_ROOT` . 否则无法使用hook功能
+
+```
+export CLAUDE_PLUGIN_ROOT="/myproject/.claude/"
+```
+
 ## 设置规则
 
 - dev 用于编码
 - review 用于代码质量/安全
 - research.md 做之前的探索模式
+
 ```
 ```bash
 # Daily development
