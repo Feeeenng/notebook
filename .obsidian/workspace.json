@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ide/code/claude code/claude code.md",
+                "file": "ide/code/claude code/Claude Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "claude code"
+              "title": "Claude Code"
             }
           }
         ]
@@ -104,16 +104,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "ide/code/claude code/Claude Code.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Claude Code 的反向链接列表"
             }
           },
           {
@@ -122,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ide/code/claude code/Claude Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Claude Code 的出链列表"
             }
           },
           {
@@ -164,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/codex/README.md",
+                "file": "ide/code/claude code/Claude Code.md",
                 "followCursor": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Claude Code 的大纲"
             }
           },
           {
@@ -188,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 593.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,21 +204,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c67cf0a949ff2b63",
+  "active": "856bf86e514897f0",
   "lastOpenFiles": [
-    "ide/code/claude code/MCP/claude-mem.md",
-    "ide/code/claude code/claude code.md",
-    "ide/code/claude code/MCP",
-    "ide/code/claude code/skill/openspec.md",
-    "未命名.base",
-    "ide/code/claude code/skill",
-    "未命名.md",
-    "wsl/README.md",
     "ide/code/open-code/open-code.md",
+    "ide/code/claude code/skill/openspec.md",
+    "ide/code/codex/README.md",
+    "ide/code/claude code/Claude Code.md",
+    "未命名.base",
+    "未命名.md",
+    "ide/code/claude code/MCP/claude-mem.md",
+    "ide/code/claude code/MCP",
+    "ide/code/claude code/skill",
+    "wsl/README.md",
     "ide/code/claude code",
     "ide/code/open-code",
     "ide/code",
-    "ide/code/codex/README.md",
     "README.md",
     "kubernetes/开发/telepresence  代理本地流量.md",
     "ide/codex/test.md",
