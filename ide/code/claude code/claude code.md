@@ -113,7 +113,7 @@ Claude Code 可以通过 [Model Context Protocol (MCP)](https://modelcontextpro
 
 [/learn](https://github.com/affaan-m/everything-claude-code/blob/main/commands/learn.md)
 
-分析当前会话提取有用的信息保存为可用的技能
+> 分析当前会话提取有用的信息保存为可用的技能
 
 [/sessions](https://github.com/affaan-m/everything-claude-code/blob/main/commands/sessions.md)
 > 管理你的 claude clude 会话历史记录. 并且支持罗列,编辑,加载. 
