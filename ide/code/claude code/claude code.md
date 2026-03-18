@@ -84,13 +84,17 @@ Claude Code 可以通过 [Model Context Protocol (MCP)](https://modelcontextpro
 
 ## Agent
 
-##  subagents
+
+## Hooks
 
 
 
 # 基本命令使用
 
 ## /compact
+
+> 比较重要
+
 如果上下文超过限制，使用这个。可以保存上下文来。开启新的会话以后，
 
 
@@ -98,16 +102,36 @@ Claude Code 可以通过 [Model Context Protocol (MCP)](https://modelcontextpro
 
 
 
-# everything-claude-code
+# 项目推荐
+主要推荐优秀自用的项目
+##  everything-claude-code
+**完整 Claude Code 配置集合**. 包含了从产品设计,到代码编写,测试用例,安全等相关的一系列所有配置的总和.
 
-## 设置claude_path
+
+
+### skill使用
+
+[/learn](https://github.com/affaan-m/everything-claude-code/blob/main/commands/learn.md)
+
+分析当前会话提取有用的信息保存为可用的技能
+
+[/sessions](https://github.com/affaan-m/everything-claude-code/blob/main/commands/sessions.md)
+> 管理你的 claude clude 会话历史记录. 并且支持罗列,编辑,加载. 
+
+
+[/save-session](https://github.com/affaan-m/everything-claude-code/blob/main/commands/save-session.md)
+> 保存你当前会话 **session** .可用用作与任何会话时候.
+
+
+
+###  设置claude_path
 目前1.8.0版本存在问题。需要手动设置`CLAUDE_PLUGIN_ROOT` . 否则无法使用hook功能
 
 ```
 export CLAUDE_PLUGIN_ROOT="/myproject/.claude/"
 ```
 
-## 设置规则
+###  设置规则
 
 - dev 用于编码
 - review 用于代码质量/安全
