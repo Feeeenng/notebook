@@ -137,7 +137,7 @@ export CLAUDE_PLUGIN_ROOT="/myproject/.claude/"
 - review 用于代码质量/安全
 - research.md 做之前的探索模式
 
-```
+
 ```bash
 # Daily development
 alias claude-dev='claude --system-prompt "$(cat ~/.claude/contexts/dev.md)"'
@@ -148,4 +148,10 @@ alias claude-review='claude --system-prompt "$(cat ~/.claude/contexts/review.md)
 # Research/exploration mode
 alias claude-research='claude --system-prompt "$(cat ~/.claude/contexts/research.md)"'
 ```
-```
+
+
+##  [claude-hud](https://github.com/jarrodwatts/claude-hud)
+一款 Claude Code 插件，可显示当前正在发生的事情——上下文使用情况、活动工具、正在运行的代理以及待办事项进度。始终显示在输入框下方。
+
+
+
