@@ -131,69 +131,11 @@ export CLAUDE_PLUGIN_ROOT="/myproject/.claude/"
 
 ## claude-lsp
 
-
-LSP（Language Server Protocol，语言服务器协议）是微软在 2016 年提出的一个协议。在 LSP 出现之前，每个代码编辑器都必须从头构建自己的语言支持：
-
-- VS Code 需要一个 Python 插件
-- Vim 需要一个独立的 Python 插件
-- Emacs、Sublime、Atom……每个都在重复相同的工作
-
-20 个编辑器 × 50 种语言 = 1000 个独立的实现，而且大多数都不完整。
-
-LSP 的洞察是：将语言智能与编辑器分离。创建一个协议，让任何编辑器都能与任何语言服务器通信。编辑器用 JSON-RPC 说「这个符号在哪里定义？」，语言服务器（一个深刻理解某种语言的独立进程）回答。
-
-### 被动能力：自我修正的编辑
-
-这是最有价值的部分，大多数人甚至没有意识到它正在发生。每次文件编辑后，语言服务器会推送诊断信息：类型错误、缺失的导入、未定义的变量。Claude Code 立即看到这些并在同一轮次中修复它们，在你看到错误之前。
-
-**工作流程示例**：
-
-1. 你要求 Claude：「添加 email 参数」
-2. Claude 编辑 createUser() 函数
-3. LSP 检测到 3 个调用点的错误
-4. Claude 修复所有 3 个错误
-
-所有 4 个步骤在单次对话中完成——在你看到结果之前。没有手动迭代，没有「哎呀，我漏掉了一个调用点」。就是这样简单。
-
-没有 LSP 时，Claude 会编辑函数，给你结果，你尝试编译，看到 3 个错误，把它们粘贴回 Claude，然后迭代。有了 LSP，整个循环压缩成一个步骤。
-
-### 主动能力：按需代码智能
-
-除了自动诊断，Claude Code 还可以明确地向语言服务器提问：
-
-- **goToDefinition** — 「processOrder 在哪里定义？」→ 确切的文件和行号
-- **findReferences** — 「找到所有调用 validateUser 的地方」→ 每个调用点及其位置
-- **hover** — 「config 变量是什么类型？」→ 完整的类型签名和文档
-- **documentSymbol** — 「列出这个文件中的所有函数」→ 每个符号及其位置
-- **workspaceSymbol** — 「找到 PaymentService 类」→ 在整个项目中搜索符号
-- **goToImplementation** — 「哪些类实现了 AuthProvider？」→ 接口的具体实现
-- **incomingCalls/outgoingCalls** — 「什么调用了 processPayment？」→ 完整的调用层次追踪
-
-你不需要明确使用这些操作。只需自然地询问 Claude Code。「authenticate 在哪里定义？」「找到 UserService 的所有用法」「response 是什么类型？」它会自动路由到正确的 LSP 操作。
-
-
-### 安装方法
-```
-# 更新插件市场（可选）
-claude plugin marketplace update claude-plugins-official
-
-# 安装对应语言LSP
-claude plugin install pyright-lsp          # Python
-claude plugin install typescript-lsp       # TypeScript/JS
-claude plugin install gopls-lsp            # Go
-claude plugin install rust-analyzer-lsp    # Rust
-claude plugin install jdtls-lsp            # Java
-claude plugin install clangd-lsp           # C/C++
-claude plugin install csharp-lsp           # C#
-claude plugin install php-lsp              # PHP
-claude plugin install kotlin-lsp           # Kotlin
-claude plugin install swift-lsp            # Swift
-claude plugin install lua-lsp              # Lua
-```
+claude-lsp 是一个
 
 
 ##  claude-md-management
 
-[claude-md-manager](../../../[claude-md-manager.md) 是一个用来管理 CLAUDE.md 技能的插件。
+[claude-md-manager](../../../claude-md-manager.md)  是一个用来管理 CLAUDE.md 技能的插件。
 
 

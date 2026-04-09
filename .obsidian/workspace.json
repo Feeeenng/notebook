@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ide/code/claude code/skill/claude-lsp.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "claude-lsp"
+            }
+          },
+          {
+            "id": "24a4ed977e31895a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ide/code/claude code/README.md",
                 "mode": "source",
                 "source": false,
@@ -104,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ide/code/claude code/README.md",
+                "file": "ide/code/claude code/skill/claude-lsp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "claude-lsp 的反向链接列表"
             }
           },
           {
@@ -123,12 +147,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ide/code/claude code/README.md",
+                "file": "ide/code/claude code/skill/claude-lsp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "claude-lsp 的出链列表"
             }
           },
           {
@@ -166,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/code/claude code/README.md",
+                "file": "ide/code/claude code/skill/claude-lsp.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "claude-lsp 的大纲"
             }
           },
           {
@@ -204,10 +228,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "722b08b6231d9d35",
+  "active": "65cf6a1f7944493d",
   "lastOpenFiles": [
-    "ide/code/claude code/skill/claude-md-management.md",
     "ide/code/claude code/README.md",
+    "ide/code/claude code/skill/claude-lsp.md",
+    "ide/code/claude code/skill/claude-md-management.md",
     "ide/code/claude code/skill/openspec.md",
     "[claude-md-manager.md",
     "ide/code/claude code/MCP/claude-mem.md",
