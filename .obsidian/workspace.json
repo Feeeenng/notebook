@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "72244376f422c763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ide/code/claude code/skill/claude-md-management.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "claude-md-management"
+            }
+          },
+          {
             "id": "24a4ed977e31895a",
             "type": "leaf",
             "state": {
@@ -55,7 +79,8 @@
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ide/code/claude code/skill/claude-lsp.md",
+                "file": "ide/code/claude code/skill/claude-md-management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "claude-lsp 的反向链接列表"
+              "title": "claude-md-management 的反向链接列表"
             }
           },
           {
@@ -147,12 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ide/code/claude code/skill/claude-lsp.md",
+                "file": "ide/code/claude code/skill/claude-md-management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "claude-lsp 的出链列表"
+              "title": "claude-md-management 的出链列表"
             }
           },
           {
@@ -190,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/code/claude code/skill/claude-lsp.md",
+                "file": "ide/code/claude code/skill/claude-md-management.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "claude-lsp 的大纲"
+              "title": "claude-md-management 的大纲"
             }
           },
           {
@@ -228,10 +253,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa920916f6834923",
+  "active": "72244376f422c763",
   "lastOpenFiles": [
-    "ide/code/claude code/README.md",
     "ide/code/claude code/skill/claude-lsp.md",
+    "ide/code/claude code/README.md",
     "ide/code/claude code/skill/claude-md-management.md",
     "ide/code/claude code/skill/openspec.md",
     "[claude-md-manager.md",

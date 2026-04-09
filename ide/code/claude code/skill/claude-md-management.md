@@ -18,7 +18,7 @@ claude-md-management 插件包含两个 Skill：
 它们解决的是同一个大问题 —— **让 CLAUDE.md 保持有用且准确**，但切入的角度完全不同。
 
 
-## ## /revise-claude-md
+## /revise-claude-md
 会话结束时的「学习笔记」
 
 ### 它解决什么问题？
