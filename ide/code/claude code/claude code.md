@@ -107,23 +107,6 @@ Claude Code 可以通过 [Model Context Protocol (MCP)](https://modelcontextpro
 ##  everything-claude-code
 **完整 Claude Code 配置集合**. 包含了从产品设计,到代码编写,测试用例,安全等相关的一系列所有配置的总和.
 
-
-
-### skill使用
-
-[/learn](https://github.com/affaan-m/everything-claude-code/blob/main/commands/learn.md)
-
-> 分析当前会话提取有用的信息保存为可用的技能
-
-[/sessions](https://github.com/affaan-m/everything-claude-code/blob/main/commands/sessions.md)
-> 管理你的 claude clude 会话历史记录. 并且支持罗列,编辑,加载. 
-
-
-[/save-session](https://github.com/affaan-m/everything-claude-code/blob/main/commands/save-session.md)
-> 保存你当前会话 **session** .可用用作与任何会话时候.
-
-
-
 ###  设置claude_path
 目前1.8.0版本存在问题。需要手动设置`CLAUDE_PLUGIN_ROOT` . 否则无法使用hook功能
 
@@ -131,27 +114,86 @@ Claude Code 可以通过 [Model Context Protocol (MCP)](https://modelcontextpro
 export CLAUDE_PLUGIN_ROOT="/myproject/.claude/"
 ```
 
-###  设置规则
-
-- dev 用于编码
-- review 用于代码质量/安全
-- research.md 做之前的探索模式
-
-
-```bash
-# Daily development
-alias claude-dev='claude --system-prompt "$(cat ~/.claude/contexts/dev.md)"'
-
-# PR review mode
-alias claude-review='claude --system-prompt "$(cat ~/.claude/contexts/review.md)"'
-
-# Research/exploration mode
-alias claude-research='claude --system-prompt "$(cat ~/.claude/contexts/research.md)"'
-```
-
 
 ##  [claude-hud](https://github.com/jarrodwatts/claude-hud)
 一款 Claude Code 插件，可显示当前正在发生的事情——上下文使用情况、活动工具、正在运行的代理以及待办事项进度。始终显示在输入框下方。
 
+
+## Superpower
+
+[Superpowers](https://github.com/obra/superpowers) 是为您的编码代理提供的完整软件开发工作流程，建立在一组可组合的“技能”和一些确保您的代理使用它们的初始指令之上。
+
+
+## context7
+
+[Context7](https://github.com/upstash/context7) 直接从源中提取最新的、特定于版本的文档和代码示例，并将它们直接放入您的提示中。
+
+
+## claude-lsp
+
+
+LSP（Language Server Protocol，语言服务器协议）是微软在 2016 年提出的一个协议。在 LSP 出现之前，每个代码编辑器都必须从头构建自己的语言支持：
+
+- VS Code 需要一个 Python 插件
+- Vim 需要一个独立的 Python 插件
+- Emacs、Sublime、Atom……每个都在重复相同的工作
+
+20 个编辑器 × 50 种语言 = 1000 个独立的实现，而且大多数都不完整。
+
+LSP 的洞察是：将语言智能与编辑器分离。创建一个协议，让任何编辑器都能与任何语言服务器通信。编辑器用 JSON-RPC 说「这个符号在哪里定义？」，语言服务器（一个深刻理解某种语言的独立进程）回答。
+
+### 被动能力：自我修正的编辑
+
+这是最有价值的部分，大多数人甚至没有意识到它正在发生。每次文件编辑后，语言服务器会推送诊断信息：类型错误、缺失的导入、未定义的变量。Claude Code 立即看到这些并在同一轮次中修复它们，在你看到错误之前。
+
+**工作流程示例**：
+
+1. 你要求 Claude：「添加 email 参数」
+2. Claude 编辑 createUser() 函数
+3. LSP 检测到 3 个调用点的错误
+4. Claude 修复所有 3 个错误
+
+所有 4 个步骤在单次对话中完成——在你看到结果之前。没有手动迭代，没有「哎呀，我漏掉了一个调用点」。就是这样简单。
+
+没有 LSP 时，Claude 会编辑函数，给你结果，你尝试编译，看到 3 个错误，把它们粘贴回 Claude，然后迭代。有了 LSP，整个循环压缩成一个步骤。
+
+### 主动能力：按需代码智能
+
+除了自动诊断，Claude Code 还可以明确地向语言服务器提问：
+
+- **goToDefinition** — 「processOrder 在哪里定义？」→ 确切的文件和行号
+- **findReferences** — 「找到所有调用 validateUser 的地方」→ 每个调用点及其位置
+- **hover** — 「config 变量是什么类型？」→ 完整的类型签名和文档
+- **documentSymbol** — 「列出这个文件中的所有函数」→ 每个符号及其位置
+- **workspaceSymbol** — 「找到 PaymentService 类」→ 在整个项目中搜索符号
+- **goToImplementation** — 「哪些类实现了 AuthProvider？」→ 接口的具体实现
+- **incomingCalls/outgoingCalls** — 「什么调用了 processPayment？」→ 完整的调用层次追踪
+
+你不需要明确使用这些操作。只需自然地询问 Claude Code。「authenticate 在哪里定义？」「找到 UserService 的所有用法」「response 是什么类型？」它会自动路由到正确的 LSP 操作。
+
+
+### 安装方法
+```
+# 更新插件市场（可选）
+claude plugin marketplace update claude-plugins-official
+
+# 安装对应语言LSP
+claude plugin install pyright-lsp          # Python
+claude plugin install typescript-lsp       # TypeScript/JS
+claude plugin install gopls-lsp            # Go
+claude plugin install rust-analyzer-lsp    # Rust
+claude plugin install jdtls-lsp            # Java
+claude plugin install clangd-lsp           # C/C++
+claude plugin install csharp-lsp           # C#
+claude plugin install php-lsp              # PHP
+claude plugin install kotlin-lsp           # Kotlin
+claude plugin install swift-lsp            # Swift
+claude plugin install lua-lsp              # Lua
+```
+
+
+##  claude-md-management
+
+[claude-md-manager](../../../[claude-md-manager.md) 是一个用来管理 CLAUDE.md 技能的插件。
 
 
