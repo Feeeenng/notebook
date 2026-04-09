@@ -131,9 +131,7 @@ export CLAUDE_PLUGIN_ROOT="/myproject/.claude/"
 
 ## claude-lsp
 
-claude-lsp 是一个 添加语言服务器协议的插件
-
-
+[claude-lsp](skill/claude-lsp.md) 是一个 添加语言服务器协议的插件
 ##  claude-md-management
 
 [claude-md-manager](../../../claude-md-manager.md)  是一个用来管理 CLAUDE.md 技能的插件。
