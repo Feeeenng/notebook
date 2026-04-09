@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ide/code/claude code/Claude Code.md",
+                "file": "ide/code/claude code/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Claude Code"
+              "title": "README"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ide/code/claude code/Claude Code.md",
+                "file": "ide/code/claude code/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Claude Code 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ide/code/claude code/Claude Code.md",
+                "file": "ide/code/claude code/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Claude Code 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/code/claude code/Claude Code.md",
+                "file": "ide/code/claude code/README.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Claude Code 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -204,10 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa920916f6834923",
+  "active": "722b08b6231d9d35",
   "lastOpenFiles": [
     "ide/code/claude code/skill/claude-md-management.md",
-    "ide/code/claude code/Claude Code.md",
+    "ide/code/claude code/README.md",
     "ide/code/claude code/skill/openspec.md",
     "[claude-md-manager.md",
     "ide/code/claude code/MCP/claude-mem.md",
