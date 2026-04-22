@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ide/code/claude code/README.md",
+                "file": "Liunx/tmux/README.md.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "README.md"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/code/claude code/skill/claude-md-management.md",
+                "file": "Liunx/tmux/README.md.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "claude-md-management 的大纲"
+              "title": "README.md 的大纲"
             }
           },
           {
@@ -255,8 +255,11 @@
   },
   "active": "65cf6a1f7944493d",
   "lastOpenFiles": [
-    "[claude-md-manager.md",
     "ide/code/claude code/skill/claude-md-management.md",
+    "Liunx/tmux/README.md.md",
+    "Liunx/tmux",
+    "Liunx",
+    "[claude-md-manager.md",
     "未命名.md",
     "ide/code/claude code/skill/claude-lsp.md",
     "ide/code/claude code/README.md",
