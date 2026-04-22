@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,13 +253,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72244376f422c763",
+  "active": "65cf6a1f7944493d",
   "lastOpenFiles": [
+    "[claude-md-manager.md",
+    "ide/code/claude code/skill/claude-md-management.md",
+    "未命名.md",
     "ide/code/claude code/skill/claude-lsp.md",
     "ide/code/claude code/README.md",
-    "ide/code/claude code/skill/claude-md-management.md",
     "ide/code/claude code/skill/openspec.md",
-    "[claude-md-manager.md",
     "ide/code/claude code/MCP/claude-mem.md",
     "ide/code/codex/README.md",
     "未命名 2.md"
