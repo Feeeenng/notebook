@@ -40,3 +40,25 @@ tmux attach -t <session-id>
 tmux kill-session -t <session-id>
 tmux kill-server # 删除所有 session
 ```
+
+
+# 插件功能
+> 后续所有插件功能都要提前装好插件管理器
+
+## 插件管理器
+https://github.com/tmux-plugins/tpm
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+```
+
+
+## 自动保存会话
+tmux-continuum
+地址：https://github.com/tmux-plugins/tmux-continuum
+
+开启方式
+```
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+```
