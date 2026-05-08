@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Liunx/tmux/README.md",
+                "file": "Liunx/chezmoi/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Liunx/tmux/README.md",
+                "file": "Liunx/chezmoi/README.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -231,9 +231,11 @@
   },
   "active": "65cf6a1f7944493d",
   "lastOpenFiles": [
+    "Liunx/tmux/README.md",
+    "Liunx/chezmoi/README.md",
+    "Liunx/chezmoi",
     "未命名.md",
     "ide/code/claude code/skill/claude-md-management.md",
-    "Liunx/tmux/README.md",
     "Liunx/tmux",
     "Liunx",
     "[claude-md-manager.md",
