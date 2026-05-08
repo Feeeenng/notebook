@@ -39,6 +39,9 @@ git push -u origin main
 至此，你已经完成了对点文件的托管！
 
 文档参考：
+
 https://zhuanlan.zhihu.com/p/2017558515602990956
 
 https://www.daucloud.com/posts/chezmoi/
+
+https://github.com/roylez/dotfiles
