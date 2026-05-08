@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Liunx/chezmoi/README.md",
+                "file": "ide/code/codex/AGENTS.md.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "AGENTS.md"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Liunx/chezmoi/README.md",
-                "followCursor": true,
+                "file": "ide/code/codex/AGENTS.md.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "AGENTS.md 的大纲"
             }
           },
           {
@@ -206,9 +206,10 @@
   },
   "active": "65cf6a1f7944493d",
   "lastOpenFiles": [
+    "Liunx/chezmoi/README.md",
+    "ide/code/codex/AGENTS.md.md",
     "ide/code/claude code/skill/claude-lsp.md",
     "未命名.md",
-    "Liunx/chezmoi/README.md",
     "Liunx/tmux/README.md",
     "Liunx/chezmoi",
     "ide/code/claude code/skill/claude-md-management.md",
