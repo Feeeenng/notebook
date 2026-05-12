@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "AGENTS.md"
             }
+          },
+          {
+            "id": "01eeda716f38fc74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liunx/chezmoi/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "ddb71005a8926d6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liunx/tmux/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/code/codex/AGENTS.md.md",
+                "file": "Liunx/tmux/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AGENTS.md 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -204,7 +253,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65cf6a1f7944493d",
+  "active": "ddb71005a8926d6b",
   "lastOpenFiles": [
     "Liunx/chezmoi/README.md",
     "ide/code/codex/AGENTS.md.md",
