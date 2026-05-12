@@ -29,6 +29,11 @@ tmux ls # 查看所有 session
 tmux new-session -s $(date +%s)
 ```
 
+## 修改session
+
+```
+tmux rename-session -t old-id new-id
+```
 ## 找回session
 
 ```
