@@ -215,7 +215,7 @@
               "type": "outline",
               "state": {
                 "file": "ide/code/codex/AGENTS.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -252,13 +252,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa920916f6834923",
+  "active": "65cf6a1f7944493d",
   "lastOpenFiles": [
+    "未命名.md",
+    "ide/code/codex/AGENTS.md",
     "Liunx/tmux/README.md",
     "Liunx/chezmoi/README.md",
-    "ide/code/codex/AGENTS.md",
     "ide/code/claude code/skill/claude-lsp.md",
-    "未命名.md",
     "Liunx/chezmoi",
     "ide/code/claude code/skill/claude-md-management.md",
     "Liunx/tmux",
