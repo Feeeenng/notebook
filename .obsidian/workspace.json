@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa920916f6834923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ide/code/codex/AGENTS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGENTS"
-            }
-          },
-          {
             "id": "01eeda716f38fc74",
             "type": "leaf",
             "state": {
@@ -78,8 +54,33 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "6218179714a213a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/AI/华为910显卡分布式训练.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "华为910显卡分布式训练"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -252,9 +253,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65cf6a1f7944493d",
+  "active": "6218179714a213a1",
   "lastOpenFiles": [
+    "kubernetes/开发/telepresence  代理本地流量.md",
+    "kubernetes/AI/华为910显卡分布式训练.md",
+    "kubernetes/AI/未命名",
+    "kubernetes/AI",
     "未命名.md",
+    "未命名 1.md",
     "ide/code/codex/AGENTS.md",
     "Liunx/tmux/README.md",
     "Liunx/chezmoi/README.md",
