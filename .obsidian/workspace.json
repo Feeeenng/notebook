@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/AI/华为910显卡分布式训练.md",
+                "file": "ide/code/codex/AGENTS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "华为910显卡分布式训练"
+              "title": "AGENTS"
             }
           }
         ],
@@ -235,7 +235,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -255,8 +255,8 @@
   },
   "active": "6218179714a213a1",
   "lastOpenFiles": [
-    "kubernetes/开发/telepresence  代理本地流量.md",
     "kubernetes/AI/华为910显卡分布式训练.md",
+    "kubernetes/开发/telepresence  代理本地流量.md",
     "kubernetes/AI/未命名",
     "kubernetes/AI",
     "未命名.md",
