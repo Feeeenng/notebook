@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e0644a5f32e89b9d",
+        "id": "13a3c9556bafd989",
         "type": "tabs",
         "children": [
           {
-            "id": "01eeda716f38fc74",
+            "id": "8e2123d3cc5dd805",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Liunx/chezmoi/README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "ddb71005a8926d6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Liunx/tmux/README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "6218179714a213a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ide/code/codex/AGENTS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGENTS"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ide/code/codex/AGENTS.md",
-                "followCursor": true,
-                "showSearch": false,
+                "followCursor": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AGENTS 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -235,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -243,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -253,17 +190,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6218179714a213a1",
+  "active": "8e2123d3cc5dd805",
   "lastOpenFiles": [
+    "ide/code/orca/README.md",
+    "未命名.md",
+    "ide/code/orca",
+    "未命名.base",
+    "Liunx/chezmoi/README.md",
+    "Liunx/tmux/README.md",
+    "ide/code/codex/AGENTS.md",
+    "ide/code/codex/README.md",
     "kubernetes/AI/华为910显卡分布式训练.md",
     "kubernetes/开发/telepresence  代理本地流量.md",
     "kubernetes/AI/未命名",
     "kubernetes/AI",
-    "未命名.md",
     "未命名 1.md",
-    "ide/code/codex/AGENTS.md",
-    "Liunx/tmux/README.md",
-    "Liunx/chezmoi/README.md",
     "ide/code/claude code/skill/claude-lsp.md",
     "Liunx/chezmoi",
     "ide/code/claude code/skill/claude-md-management.md",
@@ -273,7 +214,6 @@
     "ide/code/claude code/README.md",
     "ide/code/claude code/skill/openspec.md",
     "ide/code/claude code/MCP/claude-mem.md",
-    "ide/code/codex/README.md",
     "未命名 2.md"
   ]
 }
