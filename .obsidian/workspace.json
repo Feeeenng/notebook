@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "13a3c9556bafd989",
+        "id": "5f4cb6ee13e82798",
         "type": "tabs",
         "children": [
           {
-            "id": "8e2123d3cc5dd805",
+            "id": "40ea7c479ba34f72",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/AI/推理/Kthena.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kthena"
             }
           }
         ]
@@ -37,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -190,21 +206,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e2123d3cc5dd805",
+  "active": "40ea7c479ba34f72",
   "lastOpenFiles": [
-    "ide/code/orca/README.md",
+    "未命名 2.md",
+    "kubernetes/AI/推理/Kthena.md",
+    "未命名 1.md",
+    "kubernetes/AI/推理",
+    "ide/code/codex/README.md",
     "未命名.md",
+    "ide/code/orca/README.md",
     "ide/code/orca",
     "未命名.base",
     "Liunx/chezmoi/README.md",
     "Liunx/tmux/README.md",
     "ide/code/codex/AGENTS.md",
-    "ide/code/codex/README.md",
     "kubernetes/AI/华为910显卡分布式训练.md",
     "kubernetes/开发/telepresence  代理本地流量.md",
-    "kubernetes/AI/未命名",
     "kubernetes/AI",
-    "未命名 1.md",
     "ide/code/claude code/skill/claude-lsp.md",
     "Liunx/chezmoi",
     "ide/code/claude code/skill/claude-md-management.md",
@@ -213,7 +231,6 @@
     "[claude-md-manager.md",
     "ide/code/claude code/README.md",
     "ide/code/claude code/skill/openspec.md",
-    "ide/code/claude code/MCP/claude-mem.md",
-    "未命名 2.md"
+    "ide/code/claude code/MCP/claude-mem.md"
   ]
 }
